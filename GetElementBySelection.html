@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GetElementBySelection</title>
+	<script type="text/javascript">
+		function fn1(){
+			var select=document.GetElementById("selectbox");
+		    alert(select.options[select.selectedIndex].value);
+			
+		 }
+	</script>
+</head> 
+<body>
+<select id="selectbox">
+	<option value="Sabaragamuwa University">Sabaragamuwa University</option>
+	<option value="Colombo University">Colombo University</option>
+	<option value="Kelaniya University">Kelaniya University</option>
+	<option value="Japura University">Japura University</option>
+</select>
+<br>
+<br>
+<button onclick="fn1()">Click me</button>
+</body>
+</html>
